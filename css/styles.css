@@ -147,6 +147,57 @@ section .paragraph {
     text-decoration: none;
 }
 
+@media screen and (min-width: 1440px) {
+    .about {
+        width: 1296px;
+    }
+
+    #projects {
+        width: 1296px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .projects {
+        flex-direction: column;
+    }
+
+    #projects .project {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        padding-top: 61px;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    nav li {
+        margin: auto 18px;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 680px) {
+    nav li {
+        margin: auto;
+    }
+
+    #projects .project {
+        width: 500px;
+    }
+}
 
 /* Projects */
 
@@ -157,6 +208,9 @@ section .paragraph {
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .project {
@@ -219,6 +273,7 @@ section .paragraph {
 .skill-logo {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .skill-logo figure {
