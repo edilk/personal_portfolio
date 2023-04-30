@@ -4,37 +4,50 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio | Edil Kamchybekov</title>
+        <title>Contact | Edil Kamchybekov</title>
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
         <header>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./index.html#about">About</a></li>
+                    <li><a href="./index.html#projects">Projects</a></li>
+                    <li><a href="./index.html#skills">Skills</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <form action="#" method="post">
-                <input type="text" value="Enter your name">
-                <input type="email" name="email" id="email" value="Enter your email">
-                <textarea name="" id="" cols="30" rows="10" value="Enter your message"></textarea>
-                <input type="button" value="Submit">
-            </form>
-            <div>
-                <p>You can also get in touch with me through: </p>
-                <span>Gmail</span>
-                <span>GitHub</span> 
-                <span>Linkedin</span>
-                <span>Twitter</span>
+            <div class="contact">
+                <h2>Contact</h2>
+                <form action="#" method="post" >
+                    <input type="text" name="name" id="username" value="Enter your name" required>
+                    <input type="email" name="email" id="email" value="Enter your email" required>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" >Enter your message</textarea>
+                    <input type="button" name="button" value="Submit">
+                </form>
+                <div class="email">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>ed2803k@gmail.com</span>
+                </div>
+                <div class="links">
+                    <a href="https://github.com/edilk/" target="_blank">
+                        <i class="fa-brands fa-github" style="color: #263032;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/edil-kamchybekov-bb8526234/" target="_blank">
+                        <i class="fa-brands fa-linkedin" style="color: #263032;"></i>
+                    </a>
+                    <a href="https://twitter.com/EKamchybekov" target="_blank">
+                        <i class="fa-brands fa-twitter" style="color: #263032;"></i>
+                    </a>
+                </div>
             </div>
         </main>
         <footer>
             <p>&copy Edil Kamchybekov - 2023</p>
         </footer>
+        <script src="https://kit.fontawesome.com/55dbac1908.js" crossorigin="anonymous"></script>
     </body>
 </html>
