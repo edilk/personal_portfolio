@@ -4,70 +4,138 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio | Edil Kamchybekov</title>
+        <title>Home | Edil Kamchybekov</title>
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
         <header>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <div>
-                <span>Hi, my name is</span>
-                <h1>Edil Kamchybekov</h1>
-            </div>
-            <div>
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit 
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-                    occaecat cupidatat non proident, sunt in culpa qui officia 
-                    deserunt mollit anim id est laborum.<br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit 
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-                    occaecat cupidatat non proident, sunt in culpa qui officia 
-                    deserunt mollit anim id est laborum.</p> 
-            </div>
-            <div>
-                <h2>Projects</h2>
-                <div>
-                    <h3>The Crusty Croissant</h3>
-                    <img src="./images/the-crusty-croissant-logo.png" alt="Th Crusty Croissant image">
-                    <h5>Summary:</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua.</p>
-                    <h5>Technologies:</h5>
-                    <span>HTML</span>
-                    <span>CSS</span>
+            <div class="banner">
+                <div class="banner-content">
+                    <h1>Hi, I'm Edil Kamchybekov</h1>
                 </div>
             </div>
-            <div>
+            <div class="about" id="about">
+                <h2>About Me</h2>
+                <section>
+                    <img src="./images/51.jpg" alt="My profile picture"> 
+                    <div class="paragraph">
+                        <p>Hello!<br>
+                            My name is Edil Kamchybekov, and I'm 25 years old. I come from 
+                            <a href="https://en.wikipedia.org/wiki/Kyrgyzstan" target="_blank">Kyrgyzstan</a> 
+                            and recently started learning Front-End Development. My goal is to become an 
+                            experienced Web Developer.</p>
+        
+                            <p>I am taking a Front-End Development course on 
+                                <a href="https://www.codecademy.com/" target="_blank">Codecademy</a> to further 
+                                my knowledge. I have already gained experience in HTML, CSS, and JavaScript, and 
+                                my next step is to learn JavaScript frameworks like React and Redux to enhance 
+                                my skills.</p>
+        
+                            <p>In the future, I plan to delve into Back-End Development using Java programming 
+                                language. With hard work and dedication, I aim to become a well-rounded Web 
+                                Developer capable of creating outstanding digital experiences.  
+                            </p>
+                    </div>
+                </section>
+            </div>
+            <div class="projects-container" id="projects">
+                <h2>Projects</h2>
+                <div class="projects">
+                    <div class="project">
+                        <h3>The Crusty Croissant</h3>
+                        <div class="project-content">
+                            <img src="./images/croissant.png" alt="The Crusty Croissant image">
+                            <div class="description">
+                                <p>This is a simple static web page for the imaginery bakery The 
+                                    Crusty Croissant. It is built using only HTML and CSS. Web page 
+                                    is responsive.  
+                                </p>
+                                <div class="techs">
+                                    <i class="fa-brands fa-html5" style="color: #263032;"></i>
+                                    <i class="fa-brands fa-css3-alt" style="color: #263032;"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="more">More</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>The Crusty Croissant</h3>
+                        <div class="project-content">
+                            <img src="./images/croissant.png" alt="The Crusty Croissant image">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                    aliqua.</p>
+                                <div class="techs">
+                                    <i class="fa-brands fa-html5" style="color: #263032;"></i>
+                                    <i class="fa-brands fa-css3-alt" style="color: #263032;"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="more">More</a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h3>The Crusty Croissant</h3>
+                        <div class="project-content">
+                            <img src="./images/croissant.png" alt="The Crusty Croissant image">
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                    aliqua.</p>
+                                <div class="techs">
+                                    <i class="fa-brands fa-html5" style="color: #263032;"></i>
+                                    <i class="fa-brands fa-css3-alt" style="color: #263032;"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="more">More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills" id="skills">
                 <h2>Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Git</li>
-                </ul>
+                <div class="skill-logo">
+                    <figure>
+                        <img src="./images/Java.svg" alt="Java logo">
+                        <figcaption>Java</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/html.png" alt="HTML logo">
+                        <figcaption>HTML</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/CSS.png" alt="CSS logo">
+                        <figcaption>CSS</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/JS.svg" alt="JavaScript logo">
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/git.svg" alt="Git logo">
+                        <figcaption>Git</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/mysql.svg" alt="MySQL logo">
+                        <figcaption>MySQL</figcaption>
+                    </figure>
+                </div>
             </div>
         </main>
         <footer>
             <p>&copy Edil Kamchybekov - 2023</p>
         </footer>
+        <script src="https://kit.fontawesome.com/55dbac1908.js" crossorigin="anonymous"></script>
     </body>
 </html>
